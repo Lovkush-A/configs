@@ -1,0 +1,38 @@
+[user]
+      name = Lovkush Agarwal
+      email = lovkush@gmail.com
+[alias]
+      aa = add --all
+      br = branch -vv
+      bd = branch -d
+      bD = branch -D
+      ci = commit
+      cim = commit -m
+      cima = commit -am
+      clr = rm -r --cached
+      co = checkout
+      cp = cherry-pick -x
+      d = diff -w
+      dc = diff --cached
+      nb = checkout -b
+      lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset' -20
+      oups = commit --amend --no-edit
+      r = remote -v
+      rh = reset --hard
+      st = status -sb
+      t = tag -l
+      unstage = reset HEAD
+      uncommit = reset --soft HEAD^
+      pushfl = push --force-with-lease
+[push]
+      autoSetupRemote = true
+[merge]
+        conflictstyle = zdiff3
+[init]
+      defaultBranch = main
+[help]
+        autocorrect = 10
+[core]
+        pager = delta
+[diff]
+        algorithm = histogram
